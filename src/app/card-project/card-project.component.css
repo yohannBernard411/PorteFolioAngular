@@ -1,0 +1,68 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.projectcard{
+    height: 80vh;
+    width: 25vw;
+    min-width: 200px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 40px grey;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 7px;
+  }
+  .projectcard h3, .projectcard p, .projectcard a{
+    transition: transform 0.7s;
+  }
+  .projectcard h3{
+    transform: translateY(-500px);
+    color: var(--main);
+    font-size: 30px;
+  }
+  .projectcard p{
+    width: 90%;
+    margin: 0;
+    transform: translateX(500px);
+  }
+  .projectcard a{
+    display: block;
+    transform: translateX(-500px);
+    float: right;
+    margin-right: 30px;
+  }
+  .gradient{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .projectcard:hover .gradient{
+    opacity: 1;
+    background-image: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0.8) 65%, rgba(255, 255, 255, 0.2) 100%);
+  }
+  .projectcard:hover h3,.projectcard:hover P,.projectcard:hover a{
+    transform: translate(0);
+  }
+  .see-btn{
+    background-color: white;
+    font-size: 16px;
+    width: 160px;
+    height: 44px;
+    border: solid 2px var(--main);
+    border-radius: 7px;
+    color: var(--main);
+    transition: background-color 0.7s, color 0.7s;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .mrg-btn{
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 1000px) and (orientation: portrait){
+    .projectcard{
+      height: 70vh;
+      width: 80vw;
+    }
+  }

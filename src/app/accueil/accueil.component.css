@@ -1,0 +1,60 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.accueil{
+    width: calc( 100vw - 20px);
+    height: calc(100vh - 7px);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(255, 255, 255, 0) 50%,rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 1) 100%), url("https://zupimages.net/up/19/30/wiae.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .webdev{
+    white-space: nowrap;
+    font-size: 36px;
+    margin-left: 32px;
+    color: white;
+  }
+  .web{
+    font-family: Montserrat;
+  }
+  .dev{
+    font-family: Anton;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 20%;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+  }
+  .offset1{
+    margin-left: calc(-100vw/70);
+  }
+  .offset2{
+    margin-left: calc(-100vw/100);
+  }
+  .offset3{
+    margin-left: calc(-100vw/300);
+  }
+  .offset4{
+    margin-left: calc(100vw/400);
+  }
+  .offset5{
+    margin-left: calc(100vw/100);
+  }
+  
+  @media (max-width: 1000px) and (orientation: portrait) {
+    .accueil{
+      width: 100vw;
+    }
+  }

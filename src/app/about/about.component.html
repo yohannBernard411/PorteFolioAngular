@@ -1,0 +1,15 @@
+<div class='apropos'>
+    <app-margetitle [title]="'About me'" [rank]="1"></app-margetitle>
+    <div class='screen'>
+      <div class='left'>
+        <app-selfie></app-selfie>
+        <div class='social-case'>
+          <app-social-media></app-social-media>
+        </div>
+      </div>
+      <div class='right'>
+        <app-bio [buttonState]="this.expandButton"></app-bio>
+      <app-see-button (newStateEvent)="changeState($event)"></app-see-button>
+      </div>
+    </div>
+  </div>

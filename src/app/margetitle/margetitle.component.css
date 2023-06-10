@@ -1,0 +1,32 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.margetitle{
+  width: 280px;
+  padding-bottom: 20px;
+  font-size: 4em;
+  font-weight: bold;
+  transform-origin: 0% 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--contrast);
+  white-space: nowrap;
+  transform: rotateZ(90deg);
+}
+.haut{
+  position: relative;
+  top: 6vh;
+}
+.milieu{
+  position: sticky;
+  top: 12vh;
+}
+.bas{
+  position: relative;
+  top: 45vh;
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  .margetitle{
+    font-size: 3em;
+  }
+}

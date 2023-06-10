@@ -1,0 +1,60 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .screencontact{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .coordonnees{
+    margin-left: 4em;
+    font-size: 36px;
+    height: 40%;
+    color: var(--main);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15vh;
+  }
+  .phonenum{
+    color: var(--main);
+    text-decoration: none;
+  }
+  .phonenum:visited, .phonenum:link, .phonenum:active{
+    color: var(--main);
+    text-decoration: none;
+  }
+  .iconlink{
+    margin-right: 30px;
+  }
+  
+  
+  @media (max-width: 1000px) and (orientation: portrait){
+    .contact{
+      height: 180vh;
+      width: 100vw;
+    }
+    .screencontact{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100vw;
+    }
+    .coordonnees{
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 24px;
+      margin-left: -0.5em;
+    }
+  }

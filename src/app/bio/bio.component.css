@@ -1,0 +1,32 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+#biotexte{
+  height: 30vh;
+  width: 80%;
+  border-left: solid 2px var(--main);
+  font-family: 'Architects Daughter', cursive;
+  padding: 20px;
+}
+.para1{
+  width: 80%;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.para2{
+  width: 100%;
+  text-align: justify;
+}
+.para3{
+  height: 100%;
+  display: none;
+  text-align: justify;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+
+@media (max-width: 1000px) and (orientation: portrait){
+  #biotexte{
+    border-left: none;
+  }
+}

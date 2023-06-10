@@ -1,0 +1,61 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.formulaire{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.object, .email, .content{
+  width: 100%;
+  font-family: 'Architects Daughter', cursive;
+  color: var(--main);
+  border: solid 1px var(--main);
+  border-radius: 15px;
+}
+.object, .email{
+  height: 40px;
+  width: 50%;
+}
+.content{
+  height: 160px;
+  width: 80%;
+}
+.cta{
+  font-family: 'Architects Daughter', cursive;
+  color: var(--main);
+  border: solid 1px var(--main);
+  width: 130px;
+  height: 30px;
+  align-self: flex-start;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+.cta:hover{
+  text-decoration: none;
+  background-color: var(--main);
+  color: white;
+}
+
+@media (max-width: 1000px) and (orientation: portrait){
+  .formulaire{
+    width: 100vw;
+    height: 80vh;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .object, .email{
+    height: 40px;
+    width: 70%;
+  }
+  .content{
+    height: 160px;
+    width: 90%;
+  }
+  .cta{
+    align-self: flex-end;
+  }
+}

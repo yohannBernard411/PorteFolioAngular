@@ -1,0 +1,30 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.socialmedia{
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  list-style-type: none;
+}
+.socialmedia li{
+  transition: transform 1s;
+}
+.socialmedia li:hover{
+  transform: rotateY(360deg);
+}
+.social li{
+  display: inline;
+}
+.iconlink{
+  color: var(--dark-main);
+  transition: color 1s;
+}
+.iconlink:hover{
+  color: var(--light-main);
+}

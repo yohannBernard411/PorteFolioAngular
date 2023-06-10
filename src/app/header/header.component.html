@@ -1,0 +1,24 @@
+<div class='header' [ngStyle]="{'height': (expend ? '37vh' : '10vh')}" >
+  <div class='titlespace'>
+    <h2 class='title'><span class='firstname'>Yohann</span><span class='lastname'> BERNARD</span></h2>
+  </div>
+  <div class='menu'>
+    <button class='btn' id='menu-icon'>
+      <mat-icon (click)="handleClick()">{{expend ? 'clear' : 'dehaze' }}</mat-icon>
+    </button>
+    <ul class='menu-list'>
+      <li>
+        <app-nav-button [buttonName]="'Welcome'" [buttonPosition]="position" [buttonRange]="[0, 1]" [buttonRank]="1" ></app-nav-button>
+      </li>
+      <li>
+        <app-nav-button [buttonName]="'About me'" [buttonPosition]="position" [buttonRange]="[1.1, 2]" [buttonRank]="2" ></app-nav-button>
+      </li>
+      <li>
+        <app-nav-button [buttonName]="'Projects'" [buttonPosition]="position" [buttonRange]="[2, 3]" [buttonRank]="3" ></app-nav-button>
+      </li>
+      <li>
+        <app-nav-button [buttonName]="'Contact'" [buttonPosition]="position" [buttonRange]="[3, 4]" [buttonRank]="4" ></app-nav-button>
+      </li>
+    </ul>
+  </div>
+</div>

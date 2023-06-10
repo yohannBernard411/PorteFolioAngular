@@ -1,0 +1,15 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.edging{
+  width: calc( 100vw - 20px);
+  height: 7px;
+  background-color: var(--secondary);
+  margin-top: 10vh;
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  .edging{
+    width: 100vw;
+  }
+}

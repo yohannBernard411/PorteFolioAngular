@@ -1,0 +1,31 @@
+@import "../config/color.css";
+@import "../app.component.css";
+
+.seebutton{
+  height: 20%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.see-btn{
+  background-color: white;
+  font-size: 16px;
+  width: 160px;
+  height: 44px;
+  border: solid 2px var(--main);
+  border-radius: 7px;
+  color: var(--main);
+  transition: background-color 0.7s, color 0.7s;
+  font-family: 'Architects Daughter', cursive;
+}
+.see-btn:focus{
+  outline-style: hidden;
+  outline: none;
+}
+.see-btn:hover{
+  background-color: var(--light-main);
+  color: var(--contrast) !important;
+}
