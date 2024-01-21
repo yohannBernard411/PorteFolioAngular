@@ -1,8 +1,8 @@
 # Mon portefolio
 
-[![Angular](https://angular.io/)]
-[![Material Angular](https://material.angular.io/)]
-[![EmailJS](https://www.emailjs.com/)]
+[<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png">](https://angular.io/)
+[<img src="https://material.angular.io/assets/img/homepage/angular-white-transparent.svg">](https://material.angular.io/)
+[<img src="https://www.emailjs.com/logo.png">](https://www.emailjs.com/)
 
 Projet qui regroupe des pojets, mon portefolio.
 
