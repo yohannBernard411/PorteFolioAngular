@@ -1,28 +1,52 @@
-# PortefolioAngular
+# Mon portefolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+[![forthebadge](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)]
+[![forthebadge](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)]
 
-## Development server
+Projet qui regroupe des pojets, mon portefolio.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pour commencer
 
-## Code scaffolding
+1. Cloner le repo :
+   https://github.com/yohannBernard411/PorteFolioAngular.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+```
+2. Nécessite une clef d'api pour emailJS
+Dans le fichier: src > app > formulaire-contact > formulaire-contact.component.ts
+A la ligne 12:
+```typescript
+emailjs.sendForm('contact_service', 'contact_form', e.target as HTMLFormElement, 'ICI-VOTRE-CLEF')
+```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### En ligne
 
-## Running unit tests
+Ce portefolio est également consultable à l'adresse:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```link
+https://www.bernardyohann.fr
+```
 
-## Running end-to-end tests
+## Démarrage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Aprés clonage du repo, mettre à jour les librairies avec:
+```bash
+npm install
+```
 
-## Further help
+Puis lancer le serveur en local avec:
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-https://www.youtube.com/watch?v=EuUD3Gi0CF0
+Le sera alors consultable dans le navigateur à l'adresse localhost://4200
+
+
+## Fabriqué avec
+
+Liste des programmes/logiciels/ressources que j'ai utilisé pour développer ce projet
+* [AngularMaterial](https://material.angular.io/) - Material Design components for Angular
+* [FontawesomeAngular](https://fontawesome.com/v5/docs/web/use-with/angular) - Font Awesome now has an official Angular component that’s available for all who want to to easily use our icons in projects.
+* [EmailJS](https://www.emailjs.com/) - Send Email Directly From Your Code
