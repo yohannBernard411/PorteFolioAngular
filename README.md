@@ -1,21 +1,26 @@
 # Mon portefolio
 
-[![forthebadge](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)]
-[![forthebadge](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)]
+[![Angular](https://angular.io/)]
+[![Material Angular](https://material.angular.io/)]
+[![EmailJS](https://www.emailjs.com/)]
 
 Projet qui regroupe des pojets, mon portefolio.
 
 ## Pour commencer
 
 1. Cloner le repo :
-   https://github.com/yohannBernard411/PorteFolioAngular.git
+
+https://github.com/yohannBernard411/PorteFolioAngular.git
 
 ```bash
 npm install
 ```
 2. Nécessite une clef d'api pour emailJS
+
 Dans le fichier: src > app > formulaire-contact > formulaire-contact.component.ts
+
 A la ligne 12:
+
 ```typescript
 emailjs.sendForm('contact_service', 'contact_form', e.target as HTMLFormElement, 'ICI-VOTRE-CLEF')
 ```
@@ -41,7 +46,7 @@ Puis lancer le serveur en local avec:
 ng serve
 ```
 
-Le sera alors consultable dans le navigateur à l'adresse localhost://4200
+Le site sera alors consultable dans le navigateur à l'adresse localhost://4200
 
 
 ## Fabriqué avec
