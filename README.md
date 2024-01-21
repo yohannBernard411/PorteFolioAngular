@@ -1,8 +1,8 @@
 # Mon portefolio
 
-[<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png">](https://angular.io/)
-[<img src="https://material.angular.io/assets/img/homepage/angular-white-transparent.svg">](https://material.angular.io/)
-[<img src="https://www.emailjs.com/logo.png">](https://www.emailjs.com/)
+[<img src="https://zupimages.net/up/24/03/vi2r.png">](https://angular.io/)
+[<img src="https://zupimages.net/up/24/03/70so.png">](https://material.angular.io/)
+[<img src="https://zupimages.net/up/24/03/g6ek.png">](https://www.emailjs.com/)
 
 Projet qui regroupe des pojets, mon portefolio.
 
